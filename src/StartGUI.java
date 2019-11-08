@@ -25,11 +25,13 @@ public class StartGUI extends Application {
         // --module-path /Users/andrasacs/IdeaProjects/_external_libraries/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml
 
 
+        // Manuel oprettelse af GUI:
         // Importer giffen
-        // Skriv text: connecting
+        // Skriv text: Connecting
         // Scene
         // Vbox
 
+        // Jeg vil hellere bruge FXML som GUI
         primaryStage.setTitle("Join a Meeting");
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(new URL("file:///Users/andrasacs/IdeaProjects/Zoom.us_Kopi/src/ZOOMGUI.fxml"));
